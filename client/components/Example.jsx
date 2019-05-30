@@ -6,7 +6,13 @@ export default function Example() {
   const [count, setCount] = useState(0);
   return (
     <div>
-      <p>Example Rendering</p>
+      {/* this seems quite a simpler syntax than class based components */}
+      <div>
+        {/* this is how you access state */}
+        <p>You clicked {count} times</p>
+        {/* this is how you change state */}
+        <button onClick={() => setCount(count + 1)}>Click me</button>
+      </div>
     </div>
   );
 }
