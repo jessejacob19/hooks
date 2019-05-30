@@ -16,3 +16,11 @@ export default function Example() {
     </div>
   );
 }
+
+//when you set state in hooks it replaces whereas in class components it merges
+/* you set the initial state in the useState brackets */
+// function ExampleWithManyStates() {
+//   // Declare multiple state variables!
+//   const [age, setAge] = useState(42);
+//   const [fruit, setFruit] = useState('banana');
+//   const [todos, setTodos] = useState([{ text: 'Learn Hooks' }]);
