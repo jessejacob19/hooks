@@ -1,2 +1,2 @@
-# eda_bolierplate
-boilerplate for the stack taught at eda
+# react hooks
+reactn can manage global state?
